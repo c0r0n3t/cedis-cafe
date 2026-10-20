@@ -3,10 +3,18 @@ import cafeInfo from "../data/cafeInfo";
 export default function Credits() {
   return (
     <div className="mx-auto max-w-2xl px-6 py-10">
-      <h2 className="text-3xl font-light tracking-wide text-seasalt">
+      <div className="mx-auto h-64 w-64 overflow-hidden rounded-full border border-battleship md:h-72 md:w-72">
+        <img
+          src={cafeInfo.creditsImage}
+          alt={cafeInfo.creditsImageAlt}
+          className="h-full w-full object-cover"
+        />
+      </div>
+
+      <h2 className="mt-10 text-center text-3xl font-light tracking-wide text-seasalt">
         {cafeInfo.creditsTitle}
       </h2>
-      <p className="mt-3 text-silver">{cafeInfo.creditsIntro}</p>
+      <p className="mt-3 text-center text-silver">{cafeInfo.creditsIntro}</p>
 
       <div className="mt-10 space-y-8">
         {cafeInfo.creditsGroups.map((group) => (

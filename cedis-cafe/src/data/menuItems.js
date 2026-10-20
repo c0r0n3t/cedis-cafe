@@ -34,20 +34,35 @@ const menuItems = [
 
   // Pastries
   new MenuItem(22, "Butter Croissant", "Pastries", 85, "", "Flaky, buttery, and freshly baked"),
-  new MenuItem(23, "Blueberry Muffin", "Pastries", 95, "", "Soft muffin packed with blueberries"),
+  new MenuItem(23, "Chocolate Croissant", "Pastries", 100, "", "Flaky croissant filled with dark chocolate"),
+  new MenuItem(24, "Almond Croissant", "Pastries", 110, "", "Buttery croissant with almond cream and sliced almonds"),
+  new MenuItem(25, "Pain au Chocolat", "Pastries", 100, "", "Layered pastry with a chocolate center"),
+  new MenuItem(26, "Cinnamon Roll", "Pastries", 105, "", "Soft roll swirled with cinnamon and topped with glaze"),
+  new MenuItem(27, "Cheese Danish", "Pastries", 95, "", "Flaky pastry with sweet cream cheese filling"),
+  new MenuItem(28, "Ensaymada", "Pastries", 85, "", "Soft, buttery brioche topped with sugar and cheese"),
+  new MenuItem(29, "Banana Bread", "Pastries", 90, "", "Moist banana loaf slice, baked fresh"),
+  new MenuItem(30, "Blueberry Muffin", "Pastries", 95, "", "Soft muffin packed with blueberries"),
+  new MenuItem(31, "Chocolate Chip Muffin", "Pastries", 95, "", "Soft muffin studded with chocolate chips"),
+
+  // Cookies
+  new MenuItem(32, "Chocolate Chip Cookie", "Cookies", 70, "", "Classic cookie with melty chocolate chips"),
+  new MenuItem(33, "Double Chocolate Cookie", "Cookies", 75, "", "Rich cocoa cookie loaded with chocolate chunks"),
+  new MenuItem(34, "Oatmeal Raisin Cookie", "Cookies", 70, "", "Chewy oatmeal cookie with sweet raisins"),
+  new MenuItem(35, "White Chocolate Macadamia Cookie", "Cookies", 85, "", "Buttery cookie with white chocolate and macadamia nuts"),
+  new MenuItem(36, "Butter Cookie", "Cookies", 60, "", "Crisp, melt-in-your-mouth butter cookie"),
 
   // Bars & Brownies
-  new MenuItem(24, "Brownies", "Bars & Brownies", 100, "", "Rich and fudgy chocolate brownies"),
-  new MenuItem(25, "Revel Bars", "Bars & Brownies", 105, "", "Chewy oatmeal bars layered with chocolate"),
-  new MenuItem(26, "Butterscotch Bar", "Bars & Brownies", 95, "", "Sweet, buttery bar with a caramelized butterscotch taste"),
+  new MenuItem(37, "Brownies", "Bars & Brownies", 100, "", "Rich and fudgy chocolate brownies"),
+  new MenuItem(38, "Revel Bars", "Bars & Brownies", 105, "", "Chewy oatmeal bars layered with chocolate"),
+  new MenuItem(39, "Butterscotch Bar", "Bars & Brownies", 95, "", "Sweet, buttery bar with a caramelized butterscotch taste"),
 
   // Smoothies
-  new MenuItem(27, "Strawberry Smoothie", "Smoothies", 130, "", "Blended strawberries with milk and ice"),
-  new MenuItem(28, "Mango Smoothie", "Smoothies", 130, "", "Blended ripe mango with milk and ice"),
-  new MenuItem(29, "Chocolate Smoothie", "Smoothies", 140, "", "Blended chocolate with milk and ice"),
-  new MenuItem(30, "Banana Smoothie", "Smoothies", 125, "", "Blended banana with milk and ice"),
-  new MenuItem(31, "Blueberry Smoothie", "Smoothies", 135, "", "Blended blueberries with milk and ice"),
-  new MenuItem(32, "Mixed Berry Smoothie", "Smoothies", 140, "", "Strawberries, blueberries, and raspberries blended with ice"),
+  new MenuItem(40, "Strawberry Smoothie", "Smoothies", 130, "", "Blended strawberries with milk and ice"),
+  new MenuItem(41, "Mango Smoothie", "Smoothies", 130, "", "Blended ripe mango with milk and ice"),
+  new MenuItem(42, "Chocolate Smoothie", "Smoothies", 140, "", "Blended chocolate with milk and ice"),
+  new MenuItem(43, "Banana Smoothie", "Smoothies", 125, "", "Blended banana with milk and ice"),
+  new MenuItem(44, "Blueberry Smoothie", "Smoothies", 135, "", "Blended blueberries with milk and ice"),
+  new MenuItem(45, "Mixed Berry Smoothie", "Smoothies", 140, "", "Strawberries, blueberries, and raspberries blended with ice"),
 ];
 
 export default menuItems;

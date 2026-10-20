@@ -7,4 +7,8 @@ export default class MenuItem {
     this.image = image;
     this.description = description;
   }
+
+  getFormattedPrice() {
+    return `₱${this.price}`;
+  }
 }
