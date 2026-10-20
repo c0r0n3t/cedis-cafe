@@ -5,7 +5,7 @@ import Menu from "./pages/Menu";
 
 export default function App() {
   return (
-    <div>
+    <div className="min-h-screen bg-night text-silver">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

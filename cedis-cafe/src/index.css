@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+  --color-night: #181516;
+  --color-vandyke: #362d2b;
+  --color-battleship: #8b8481;
+  --color-silver: #c2b7ae;
+  --color-seasalt: #f9f9f7;
+}
