@@ -28,8 +28,7 @@ const cafeInfo = {
     { id: 1, heading: "Developer", items: ["Cedrick June Castro", "Section G11"] },
     { id: 2, heading: "Built With", items: ["React.js", "Tailwind CSS", "React Router", "Vite"] },
     { id: 3, heading: "Design", items: ["Figma (UI/UX design)", "draw.io (class diagram)"] },
-    { id: 4, heading: "Images", items: ["Logo: Cedi's Cafe", "Background photo: add the photographer and source here"] },
-  ],
+  ]
 };
 
 export default cafeInfo;
