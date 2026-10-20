@@ -1,4 +1,4 @@
-import menuItems from "../models/menuItems";
+import MenuItem from "../models/MenuItem";
 
 const menuItems = [
   // Hot Coffee

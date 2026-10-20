@@ -1,4 +1,4 @@
-export default class menuItems {
+export default class MenuItem {
   constructor(id, name, category, price, image, description) {
     this.id = id;
     this.name = name;
